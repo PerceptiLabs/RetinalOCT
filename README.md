@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Retinal optical coherence tomography (OCT) classification
+# Retinal Optical Coherence Tomography (OCT) Classification
 
 This dataset<sup>1</sup> contains images of retinal optical coherence tomography, a technique used to capture high-resolution cross sections of retinas that can be used to detect different diseases.
 
@@ -14,26 +14,26 @@ The data can be used to build and train an ML model that can detect ocular disea
 
 This repo contains the following structure:
 
-- **data**: contains the images directories.
-- **dataset.csv**: CSV file with all required data.
+- **dataset.csv**: CSV file that maps OCT classification labels to the training images.
+- **data**: contains the training images, partitioned into sub directories for the respective ocular diseases. The following are a few example images:
 
 <p align="center">
   <img src="./sample.png">
 </p>
 
-The following shows a partial example of the data stored in **dataset.csv** that is used as the main example.
+The table below shows a partial example of the data stored in **dataset.csv** that is used to map classification labels to training images:
 
 | **labels**  | **images** |
+| ----------  | ---------- |
 | CNV | data/train/CNV/CNV-451136-177.jpeg |
 | CNV | data/train/CNV/CNV-6652117-103.jpeg |
 | CNV | data/train/CNV/CNV-445726-65.jpeg  |
 | CNV | data/train/CNV/CNV-6215140-132.jpeg |
 
+The labels used in the CSV are:
 
-The labels on CSV are:
-
-- **CNV**: choroidal noevascularization
-- **DME**: Diabetic macular edema
+- **CNV**: Choroidal Neovascularization
+- **DME**: Diabetic Macular Edema
 - **DRUSEN**: Multiple drusen present in early AMD
 - **NORMAL**: Normal retina
 
