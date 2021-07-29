@@ -26,9 +26,9 @@ The table below shows a partial example of the data stored in **dataset.csv** th
 | **labels**  | **images** |
 | ----------  | ---------- |
 | CNV | data/train/CNV/CNV-451136-177.jpeg |
-| CNV | data/train/CNV/CNV-6652117-103.jpeg |
-| CNV | data/train/CNV/CNV-445726-65.jpeg  |
-| CNV | data/train/CNV/CNV-6215140-132.jpeg |
+| DME | data/train/DME/DME-4792882-74.jpeg |
+| DRUSEN | data/train/DRUSEN/DRUSEN-7629851-3.jpeg  |
+| NORMAL | data/train/NORMAL/NORMAL-8088630-3.jpeg |
 
 The labels used in the CSV are:
 
